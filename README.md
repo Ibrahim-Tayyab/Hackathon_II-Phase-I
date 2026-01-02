@@ -1,5 +1,7 @@
 # TODO_APP_WITH_I_T (PHASE 1)
+![Project Status: Success](images/phase_1_spec_compliant_summary.png)
 
+This project is a console-based Todo Application developed as part of Hackathon II (Phase 1).
 Welcome to **TODO_APP_WITH_I_T**, a powerful and efficient task management tool for your terminal.
 
 ## 🚀 How to Run
