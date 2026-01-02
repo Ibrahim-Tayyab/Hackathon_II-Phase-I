@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/cli/cli_handler.py
+src/models/task.py
+src/repositories/task_repository.py
+src/services/task_service.py
+src/todo_console_app.egg-info/PKG-INFO
+src/todo_console_app.egg-info/SOURCES.txt
+src/todo_console_app.egg-info/dependency_links.txt
+src/todo_console_app.egg-info/top_level.txt

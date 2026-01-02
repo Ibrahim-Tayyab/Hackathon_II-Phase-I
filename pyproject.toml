@@ -1,0 +1,38 @@
+[project]
+name = "todo-hackathon"
+version = "0.1.0"
+description = "The Evolution of Todo (Hackathon II) - Multi-app project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo-console = "apps.console_app.src.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apps*"]
+
+[tool.ruff]
+line-length = 88
+extend-ignore = [
+    "E501",  # Line too long (handled by black)
+]
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+known-third-party = []

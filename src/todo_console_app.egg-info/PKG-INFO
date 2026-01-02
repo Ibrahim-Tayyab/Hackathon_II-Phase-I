@@ -1,3 +1,10 @@
+Metadata-Version: 2.4
+Name: todo-console-app
+Version: 0.1.0
+Summary: Phase I - Todo In-Memory Python Console App
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
 # Todo Console App
 
 A simple CLI-based todo application with in-memory storage.
