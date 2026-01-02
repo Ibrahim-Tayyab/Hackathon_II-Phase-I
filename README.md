@@ -6,7 +6,7 @@ Welcome to **TODO_APP_WITH_I_T**, a powerful and efficient task management tool 
 
 ## 🚀 How to Run
 
-1.  Make sure you are in the project root directory (`e:\Hackathon_II-Phase-I3`).
+1.  Make sure you are in the project root directory (`e:\Hackathon_II-Phase-I`).
 2.  Run the application using `uv`:
 
     ```bash
